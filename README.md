@@ -48,7 +48,7 @@ Instructions on how to use them in your own application are linked below.
 | dotenv | https://www.npmjs.com/package/dotenv |
 | axios | https://github.com/axios/axios |
 | react-redux | https://express-validator.github.io/docs/ |
-| @react-google-maps/apir | https://www.npmjs.com/package/@react-google-maps/api |
+| @react-google-maps/api | https://www.npmjs.com/package/@react-google-maps/api |
 
 127.0.0.1
 `
