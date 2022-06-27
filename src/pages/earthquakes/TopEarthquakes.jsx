@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import EarthquakeCard from '../components/earthquakes/EarthquakeCard'
-import Spinner from '../components/Spinner'
-import { getTopEarhquakes, resetTopEarthquakes } from '../features/earthquakes/earthquakesSlice'
+import EarthquakeCard from '../../components/earthquakes/EarthquakeCard'
+import Spinner from '../../components/Spinner'
+import { getTopEarhquakes, resetTopEarthquakes } from '../../features/earthquakes/earthquakesSlice'
 
 //@desc Top 3 earthquakes page
 //author David Bores 

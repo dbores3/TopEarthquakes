@@ -88,43 +88,19 @@ h3 {
 
 .earthquakes {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
 }
 
 .earthquake {
   background-color: #f4f4f4;
-  margin: 10px 0;
+  margin: 5px 0;
   padding: 20px 0 10px;
-  height: 500px;
+  min-height: 400px;
+  min-width: 200px;
+  max-height: 500px;
+  max-width: 400px;
   position: relative;
-}
-
-.form,
-.content {
-  width: 70%;
-  margin: 0 auto;
-}
-
-.form-group {
-  margin-bottom: 10px;
-}
-
-.form-group input,
-.form-group textarea,
-.form-group select {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #e6e6e6;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  font-family: inherit;
-}
-
-.form-group label {
-  text-align: left;
-  display: block;
-  margin: 0 0 5px 3px;
 }
 
 .btn {

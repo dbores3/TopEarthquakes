@@ -5,7 +5,7 @@ import Map from "./Map.jsx"
 function EarthquakeCard({ earthquake }) {
   return (
     <div className='earthquake'>
-      <h2>{earthquake['properties']['place']}</h2>
+      <h4>{earthquake['properties']['place']}</h4>
       <p>Magnitude: {earthquake['properties']['mag']}</p>
       <Map earthquake={earthquake}/>
     </div>

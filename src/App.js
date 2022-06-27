@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Home from './pages/Home'
-import TopEarthquakes from './pages/TopEarthquakes'
+import TopEarthquakes from './pages/earthquakes/TopEarthquakes'
 
 function App() {
   //App's routes
@@ -16,7 +16,6 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <ToastContainer />
     </>
   )
 }

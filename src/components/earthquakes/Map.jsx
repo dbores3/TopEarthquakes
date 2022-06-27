@@ -6,7 +6,7 @@ import {
 } from '@react-google-maps/api'
   
 function Map({ earthquake }) {
-    //
+    //Sets the API's key
     const { isLoaded } = useJsApiLoader({
         googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_KEY,
         libraries: ['places'],
@@ -24,7 +24,7 @@ function Map({ earthquake }) {
         <GoogleMap
             center={center}
             zoom={10}
-            mapContainerStyle={{ width: '100%', height: '100%' }}
+            mapContainerStyle={{ width: '90%', height: '90%' }}
             options={{
                 zoomControl: true,
                 streetViewControl: false,
