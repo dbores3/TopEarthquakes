@@ -1,4 +1,4 @@
-# FUTURICE APP
+# Top Earthquakes App
 ## _Top 3 Earthquakes in the last month_
 
 
