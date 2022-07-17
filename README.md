@@ -2,7 +2,7 @@
 ## _Top 3 Earthquakes in the last month_
 
 
-The FUTURICE APP is a module in charge of connecting with the USGS' API and get the top 3 earthquakes of the month. It displays the earthquake's location name, the magnitude and connects with Google Maps API to display the actual location. Powered with ReactJS. Due to the fact that neither USGS nor Google API needed an special authentication method, it was developed merely with a front-end library, but it can easily be adapted to work with a Back-end technology and send the requests to such API in case of any escalation is needed.
+The Top Earthquakes APP is a module in charge of connecting with the USGS' API and get the top 3 earthquakes of the month. It displays the earthquake's location name, the magnitude and connects with Google Maps API to display the actual location. Powered with ReactJS. Due to the fact that neither USGS nor Google API needed an special authentication method, it was developed merely with a front-end library, but it can easily be adapted to work with a Back-end technology and send the requests to such API in case of any escalation is needed.
 
 ## Features
 
