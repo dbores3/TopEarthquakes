@@ -33,7 +33,7 @@ Install & run it locally.
 
 ```sh
 git clone https://github.com/dbores3/TopEarthquakes
-cd futurice/
+cd TopEarthquakes/
 npm install
 npm start
 ```
