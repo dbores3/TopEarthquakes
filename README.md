@@ -32,7 +32,7 @@ This API requires NPM/Yarn to run.
 Install & run it locally.
 
 ```sh
-git clone https://github.com/dbores3/futurice
+git clone https://github.com/dbores3/TopEarthquakes
 cd futurice/
 npm install
 npm start
